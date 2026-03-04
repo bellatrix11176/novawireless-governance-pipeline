@@ -1,0 +1,104 @@
+TRUST SIGNAL HEALTH PIPELINE — SUMMARY REPORT (v2)
+============================================================
+Generated: 2026-03-03 17:35:20
+Rows analyzed: 82,335
+Months loaded: 12
+
+INTEGRITY GATE
+  Total rows:       82,335
+  Clean rows:       82,335
+  Quarantined:      0 (0.0%)
+  Proxy-true divergence rate: 44.3% (soft signal, not quarantined)
+
+OVERALL SIGNAL RATES
+  Proxy resolution rate:      89.4%
+  True resolution rate:       46.8%
+  Resolution inflation:       42.6% ← this is the Goodhart gap
+  Repeat contact (30d) rate:  19.3%
+  Escalation rate:            19.7%
+  Credit applied rate:        55.8%
+  Bandaid credit rate:        8.7% ← unauthorized suppression signal
+
+TRUST SCORE SUMMARY
+  Mean:   70.8
+  Median: 76.3
+  Std:    20.9
+  P10:    41.0
+  P90:    93.9
+
+SCENARIO HEALTH (sorted by trust score, lowest first)
+  Scenario                       Calls   Trust     Gap  Bandaid
+  ------------------------------------------------------------
+  gamed_metric                  10,062    46.0   84.3%    70.9%
+  fraud_hic_exchange             3,295    47.3   80.7%     0.0%
+  fraud_line_add                 6,213    53.2   72.1%     0.0%
+  fraud_store_promo              7,398    57.7   68.4%     0.0%
+  fraud_care_promo               2,869    59.8   70.8%     0.0%
+  activation_failed              4,312    66.2   45.0%     0.0%
+  unresolvable_clean            10,737    67.0   53.9%     0.0%
+  line_add_legitimate            2,668    85.4   21.4%     0.0%
+  activation_clean               5,311    85.9   20.7%     0.0%
+  clean                         29,470    88.1   10.1%     0.0%
+
+MONTHLY TREND SUMMARY
+  Month          Calls   Trust     Gap  Bandaid   Velocity
+  ------------------------------------------------------------
+  2025-01        6,932    70.2   43.9%     9.5%          —
+  2025-02        6,819    71.4   41.9%     7.9%      +1.16
+  2025-03        6,834    71.0   42.6%     8.6%      -0.42
+  2025-04        6,874    70.8   43.1%     8.3%      -0.16
+  2025-05        6,862    70.8   42.4%     8.8%      +0.01
+  2025-06        6,830    70.6   42.7%     8.9%      -0.24
+  2025-07        6,827    70.9   42.4%     8.9%      +0.35
+  2025-08        6,926    70.5   43.3%     8.3%      -0.41
+  2025-09        6,851    71.1   42.1%     8.6%      +0.54
+  2025-10        6,859    71.2   41.8%     8.3%      +0.17
+  2025-11        6,864    70.6   42.7%     9.2%      -0.62
+  2025-12        6,857    70.8   42.7%     8.6%      +0.17
+
+REP RANKINGS (>= 20 calls)
+  Total reps: 250  |  Qualified: 250
+
+  LOWEST TRUST (most concerning):
+    REP00090 | calls=329 | trust=64.9 | gap=52.3% | credit_risk=0.16
+    REP00132 | calls=308 | trust=65.1 | gap=54.9% | credit_risk=0.16
+    REP00187 | calls=324 | trust=65.1 | gap=52.8% | credit_risk=0.12
+    REP00216 | calls=317 | trust=65.2 | gap=53.0% | credit_risk=0.15
+    REP00019 | calls=312 | trust=65.3 | gap=51.3% | credit_risk=0.14
+
+  HIGHEST TRUST (healthiest):
+    REP00102 | calls=306 | trust=77.2 | gap=33.3% | credit_risk=0.14
+    REP00229 | calls=323 | trust=77.1 | gap=29.1% | credit_risk=0.13
+    REP00050 | calls=320 | trust=77.1 | gap=32.8% | credit_risk=0.11
+    REP00018 | calls=319 | trust=76.4 | gap=32.9% | credit_risk=0.11
+    REP00060 | calls=362 | trust=75.8 | gap=32.3% | credit_risk=0.12
+
+CHURN INTEGRATION — Trust Score Predictive Power
+  Trust-Churn Correlation: r = -0.3275
+  ► Trust score IS predictive of churn. Lower trust = higher churn.
+
+  Decile   Trust Range      Calls   Churn     Gap
+  --------------------------------------------------
+  D1       18-41           8,240   27.3%  100.0%
+  D2       41-49           8,233   27.0%  100.0%
+  D3       49-55           8,233   26.0%   99.9%
+  D4       55-61           8,243   27.5%   98.0%
+  D5       61-76           8,220   27.3%   43.3%
+  D6       76-86           8,236   25.8%   -5.6%
+  D7       86-91           8,252   27.0%   -4.1%
+  D8       91-92           8,234   26.7%   -1.8%
+  D9       92-94           8,225   26.4%   -1.6%
+  D10      94-97           8,219   26.8%   -1.9%
+
+THRESHOLD ALERTS
+  Total: 92  (VETO: 7, WATCH: 85)
+  ⚠ VETO conditions present — see threshold_alerts.txt for details
+
+INTERPRETATION GUIDE
+  - Resolution inflation = proxy - true rate. Positive = system looks better than it is.
+  - Bandaid credits are unauthorized credits to suppress repeat contacts.
+  - Detection signal density = fraction of fraud/gaming indicators firing per call.
+  - Rep drift score = gaming propensity + burnout composite.
+  - Call trust score (0-100): 100 = fully trustworthy, 0 = total divergence.
+  - Drift velocity = month-over-month trust score change. Negative = degrading.
+  - VETO = halt AI optimization; re-audit labels. WATCH = human review required.

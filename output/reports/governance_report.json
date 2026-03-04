@@ -1,0 +1,1199 @@
+{
+  "meta": {
+    "pipeline_version": "2.0.0",
+    "generated": "2026-03-03 17:35:20",
+    "rows_analyzed": 82335,
+    "months_loaded": 12
+  },
+  "integrity_gate": {
+    "rows_total": 82335,
+    "rows_clean": 82335,
+    "rows_quarantined": 0,
+    "quarantine_rate": 0.0,
+    "proxy_true_divergence_rate": 0.4429
+  },
+  "overall_signals": {
+    "proxy_resolution_rate": 0.8945,
+    "true_resolution_rate": 0.4682,
+    "resolution_inflation_pp": 42.63,
+    "trust_score_mean": 70.84,
+    "trust_score_median": 76.28,
+    "trust_score_p10": 40.99,
+    "trust_score_p90": 93.87,
+    "repeat_contact_30d_rate": 0.1935,
+    "escalation_rate": 0.1966,
+    "bandaid_rate": 0.0867
+  },
+  "scenario_health": [
+    {
+      "scenario": "gamed_metric",
+      "calls": 10062,
+      "trust_score": 46.01,
+      "resolution_gap": 0.8433,
+      "bandaid_rate": 0.7094,
+      "status": "VETO"
+    },
+    {
+      "scenario": "fraud_hic_exchange",
+      "calls": 3295,
+      "trust_score": 47.25,
+      "resolution_gap": 0.8073,
+      "bandaid_rate": 0.0,
+      "status": "VETO"
+    },
+    {
+      "scenario": "fraud_line_add",
+      "calls": 6213,
+      "trust_score": 53.17,
+      "resolution_gap": 0.7211,
+      "bandaid_rate": 0.0,
+      "status": "WATCH"
+    },
+    {
+      "scenario": "fraud_store_promo",
+      "calls": 7398,
+      "trust_score": 57.7,
+      "resolution_gap": 0.6844,
+      "bandaid_rate": 0.0,
+      "status": "WATCH"
+    },
+    {
+      "scenario": "fraud_care_promo",
+      "calls": 2869,
+      "trust_score": 59.77,
+      "resolution_gap": 0.7079,
+      "bandaid_rate": 0.0,
+      "status": "WATCH"
+    },
+    {
+      "scenario": "activation_failed",
+      "calls": 4312,
+      "trust_score": 66.16,
+      "resolution_gap": 0.4501,
+      "bandaid_rate": 0.0,
+      "status": "OK"
+    },
+    {
+      "scenario": "unresolvable_clean",
+      "calls": 10737,
+      "trust_score": 67.01,
+      "resolution_gap": 0.5386,
+      "bandaid_rate": 0.0,
+      "status": "OK"
+    },
+    {
+      "scenario": "line_add_legitimate",
+      "calls": 2668,
+      "trust_score": 85.35,
+      "resolution_gap": 0.2144,
+      "bandaid_rate": 0.0,
+      "status": "OK"
+    },
+    {
+      "scenario": "activation_clean",
+      "calls": 5311,
+      "trust_score": 85.94,
+      "resolution_gap": 0.2069,
+      "bandaid_rate": 0.0,
+      "status": "OK"
+    },
+    {
+      "scenario": "clean",
+      "calls": 29470,
+      "trust_score": 88.09,
+      "resolution_gap": 0.1013,
+      "bandaid_rate": 0.0,
+      "status": "OK"
+    }
+  ],
+  "rep_health": {
+    "total_reps": 250,
+    "lowest_trust_reps": [
+      {
+        "rep_id": "REP00090",
+        "calls": 329,
+        "trust_score": 64.93,
+        "resolution_gap": 0.5228
+      },
+      {
+        "rep_id": "REP00132",
+        "calls": 308,
+        "trust_score": 65.11,
+        "resolution_gap": 0.5487
+      },
+      {
+        "rep_id": "REP00187",
+        "calls": 324,
+        "trust_score": 65.11,
+        "resolution_gap": 0.5278
+      },
+      {
+        "rep_id": "REP00216",
+        "calls": 317,
+        "trust_score": 65.15,
+        "resolution_gap": 0.53
+      },
+      {
+        "rep_id": "REP00019",
+        "calls": 312,
+        "trust_score": 65.34,
+        "resolution_gap": 0.5128
+      }
+    ],
+    "highest_trust_reps": [
+      {
+        "rep_id": "REP00102",
+        "calls": 306,
+        "trust_score": 77.15,
+        "resolution_gap": 0.3333
+      },
+      {
+        "rep_id": "REP00229",
+        "calls": 323,
+        "trust_score": 77.13,
+        "resolution_gap": 0.291
+      },
+      {
+        "rep_id": "REP00050",
+        "calls": 320,
+        "trust_score": 77.07,
+        "resolution_gap": 0.3281
+      },
+      {
+        "rep_id": "REP00018",
+        "calls": 319,
+        "trust_score": 76.41,
+        "resolution_gap": 0.3292
+      },
+      {
+        "rep_id": "REP00060",
+        "calls": 362,
+        "trust_score": 75.83,
+        "resolution_gap": 0.3232
+      }
+    ]
+  },
+  "monthly_trends": [
+    {
+      "month": "2025-01",
+      "calls": 6932,
+      "trust_score": 70.25,
+      "resolution_gap": 0.4385,
+      "bandaid_rate": 0.0955,
+      "trust_velocity": null
+    },
+    {
+      "month": "2025-02",
+      "calls": 6819,
+      "trust_score": 71.4,
+      "resolution_gap": 0.4185,
+      "bandaid_rate": 0.0788,
+      "trust_velocity": 1.155
+    },
+    {
+      "month": "2025-03",
+      "calls": 6834,
+      "trust_score": 70.98,
+      "resolution_gap": 0.426,
+      "bandaid_rate": 0.086,
+      "trust_velocity": -0.424
+    },
+    {
+      "month": "2025-04",
+      "calls": 6874,
+      "trust_score": 70.82,
+      "resolution_gap": 0.4308,
+      "bandaid_rate": 0.0831,
+      "trust_velocity": -0.163
+    },
+    {
+      "month": "2025-05",
+      "calls": 6862,
+      "trust_score": 70.83,
+      "resolution_gap": 0.4245,
+      "bandaid_rate": 0.0882,
+      "trust_velocity": 0.015
+    },
+    {
+      "month": "2025-06",
+      "calls": 6830,
+      "trust_score": 70.59,
+      "resolution_gap": 0.4272,
+      "bandaid_rate": 0.0893,
+      "trust_velocity": -0.241
+    },
+    {
+      "month": "2025-07",
+      "calls": 6827,
+      "trust_score": 70.94,
+      "resolution_gap": 0.4242,
+      "bandaid_rate": 0.0895,
+      "trust_velocity": 0.347
+    },
+    {
+      "month": "2025-08",
+      "calls": 6926,
+      "trust_score": 70.52,
+      "resolution_gap": 0.433,
+      "bandaid_rate": 0.0835,
+      "trust_velocity": -0.414
+    },
+    {
+      "month": "2025-09",
+      "calls": 6851,
+      "trust_score": 71.07,
+      "resolution_gap": 0.421,
+      "bandaid_rate": 0.0863,
+      "trust_velocity": 0.543
+    },
+    {
+      "month": "2025-10",
+      "calls": 6859,
+      "trust_score": 71.24,
+      "resolution_gap": 0.4181,
+      "bandaid_rate": 0.0827,
+      "trust_velocity": 0.173
+    },
+    {
+      "month": "2025-11",
+      "calls": 6864,
+      "trust_score": 70.62,
+      "resolution_gap": 0.4267,
+      "bandaid_rate": 0.0919,
+      "trust_velocity": -0.623
+    },
+    {
+      "month": "2025-12",
+      "calls": 6857,
+      "trust_score": 70.78,
+      "resolution_gap": 0.4267,
+      "bandaid_rate": 0.0856,
+      "trust_velocity": 0.166
+    }
+  ],
+  "alerts": {
+    "timestamp": "2026-03-03 17:35:17",
+    "total_alerts": 92,
+    "veto_count": 7,
+    "watch_count": 85,
+    "thresholds_used": {
+      "trust_score_veto": 50.0,
+      "trust_score_watch": 65.0,
+      "resolution_gap_veto": 0.7,
+      "resolution_gap_watch": 0.5,
+      "bandaid_rate_veto": 0.5,
+      "bandaid_rate_watch": 0.2,
+      "rep_trust_veto": 60.0,
+      "rep_trust_watch": 65.0,
+      "rep_gap_veto": 0.55,
+      "rep_gap_watch": 0.45,
+      "drift_velocity_watch": 2.0
+    },
+    "alerts": [
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "fraud_care_promo",
+        "signal": "resolution_gap",
+        "value": 0.7079,
+        "threshold": 0.7,
+        "message": "Scenario 'fraud_care_promo' resolution_gap 70.8% above VETO threshold 70%"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "fraud_hic_exchange",
+        "signal": "trust_score",
+        "value": 47.2539,
+        "threshold": 50.0,
+        "message": "Scenario 'fraud_hic_exchange' trust_score 47.3 below VETO threshold 50.0"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "fraud_hic_exchange",
+        "signal": "resolution_gap",
+        "value": 0.8073,
+        "threshold": 0.7,
+        "message": "Scenario 'fraud_hic_exchange' resolution_gap 80.7% above VETO threshold 70%"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "fraud_line_add",
+        "signal": "resolution_gap",
+        "value": 0.7211,
+        "threshold": 0.7,
+        "message": "Scenario 'fraud_line_add' resolution_gap 72.1% above VETO threshold 70%"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "gamed_metric",
+        "signal": "trust_score",
+        "value": 46.0089,
+        "threshold": 50.0,
+        "message": "Scenario 'gamed_metric' trust_score 46.0 below VETO threshold 50.0"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "gamed_metric",
+        "signal": "resolution_gap",
+        "value": 0.8433,
+        "threshold": 0.7,
+        "message": "Scenario 'gamed_metric' resolution_gap 84.3% above VETO threshold 70%"
+      },
+      {
+        "level": "VETO",
+        "entity_type": "scenario",
+        "entity": "gamed_metric",
+        "signal": "bandaid_rate",
+        "value": 0.7094,
+        "threshold": 0.5,
+        "message": "Scenario 'gamed_metric' bandaid_rate 70.9% above VETO threshold 50%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00004",
+        "signal": "resolution_gap",
+        "value": 0.4669,
+        "threshold": 0.45,
+        "message": "Rep 'REP00004' resolution_gap 46.7% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00007",
+        "signal": "resolution_gap",
+        "value": 0.4642,
+        "threshold": 0.45,
+        "message": "Rep 'REP00007' resolution_gap 46.4% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00008",
+        "signal": "resolution_gap",
+        "value": 0.4717,
+        "threshold": 0.45,
+        "message": "Rep 'REP00008' resolution_gap 47.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00019",
+        "signal": "resolution_gap",
+        "value": 0.5128,
+        "threshold": 0.45,
+        "message": "Rep 'REP00019' resolution_gap 51.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00023",
+        "signal": "resolution_gap",
+        "value": 0.4502,
+        "threshold": 0.45,
+        "message": "Rep 'REP00023' resolution_gap 45.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00025",
+        "signal": "resolution_gap",
+        "value": 0.4762,
+        "threshold": 0.45,
+        "message": "Rep 'REP00025' resolution_gap 47.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00026",
+        "signal": "resolution_gap",
+        "value": 0.4627,
+        "threshold": 0.45,
+        "message": "Rep 'REP00026' resolution_gap 46.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00027",
+        "signal": "resolution_gap",
+        "value": 0.513,
+        "threshold": 0.45,
+        "message": "Rep 'REP00027' resolution_gap 51.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00028",
+        "signal": "resolution_gap",
+        "value": 0.4521,
+        "threshold": 0.45,
+        "message": "Rep 'REP00028' resolution_gap 45.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00031",
+        "signal": "resolution_gap",
+        "value": 0.4575,
+        "threshold": 0.45,
+        "message": "Rep 'REP00031' resolution_gap 45.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00034",
+        "signal": "resolution_gap",
+        "value": 0.4916,
+        "threshold": 0.45,
+        "message": "Rep 'REP00034' resolution_gap 49.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00035",
+        "signal": "resolution_gap",
+        "value": 0.4869,
+        "threshold": 0.45,
+        "message": "Rep 'REP00035' resolution_gap 48.7% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00037",
+        "signal": "resolution_gap",
+        "value": 0.4706,
+        "threshold": 0.45,
+        "message": "Rep 'REP00037' resolution_gap 47.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00038",
+        "signal": "resolution_gap",
+        "value": 0.5,
+        "threshold": 0.45,
+        "message": "Rep 'REP00038' resolution_gap 50.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00042",
+        "signal": "resolution_gap",
+        "value": 0.4735,
+        "threshold": 0.45,
+        "message": "Rep 'REP00042' resolution_gap 47.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00046",
+        "signal": "resolution_gap",
+        "value": 0.4556,
+        "threshold": 0.45,
+        "message": "Rep 'REP00046' resolution_gap 45.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00049",
+        "signal": "resolution_gap",
+        "value": 0.4811,
+        "threshold": 0.45,
+        "message": "Rep 'REP00049' resolution_gap 48.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00052",
+        "signal": "resolution_gap",
+        "value": 0.4848,
+        "threshold": 0.45,
+        "message": "Rep 'REP00052' resolution_gap 48.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00054",
+        "signal": "resolution_gap",
+        "value": 0.497,
+        "threshold": 0.45,
+        "message": "Rep 'REP00054' resolution_gap 49.7% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00056",
+        "signal": "resolution_gap",
+        "value": 0.4515,
+        "threshold": 0.45,
+        "message": "Rep 'REP00056' resolution_gap 45.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00058",
+        "signal": "resolution_gap",
+        "value": 0.5028,
+        "threshold": 0.45,
+        "message": "Rep 'REP00058' resolution_gap 50.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00073",
+        "signal": "resolution_gap",
+        "value": 0.4694,
+        "threshold": 0.45,
+        "message": "Rep 'REP00073' resolution_gap 46.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00077",
+        "signal": "resolution_gap",
+        "value": 0.4615,
+        "threshold": 0.45,
+        "message": "Rep 'REP00077' resolution_gap 46.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00086",
+        "signal": "resolution_gap",
+        "value": 0.4603,
+        "threshold": 0.45,
+        "message": "Rep 'REP00086' resolution_gap 46.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00089",
+        "signal": "resolution_gap",
+        "value": 0.4524,
+        "threshold": 0.45,
+        "message": "Rep 'REP00089' resolution_gap 45.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00090",
+        "signal": "trust_score",
+        "value": 64.934,
+        "threshold": 65.0,
+        "message": "Rep 'REP00090' trust_score 64.9 below WATCH threshold 65.0"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00090",
+        "signal": "resolution_gap",
+        "value": 0.5228,
+        "threshold": 0.45,
+        "message": "Rep 'REP00090' resolution_gap 52.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00095",
+        "signal": "resolution_gap",
+        "value": 0.4794,
+        "threshold": 0.45,
+        "message": "Rep 'REP00095' resolution_gap 47.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00099",
+        "signal": "resolution_gap",
+        "value": 0.4787,
+        "threshold": 0.45,
+        "message": "Rep 'REP00099' resolution_gap 47.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00100",
+        "signal": "resolution_gap",
+        "value": 0.4785,
+        "threshold": 0.45,
+        "message": "Rep 'REP00100' resolution_gap 47.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00101",
+        "signal": "resolution_gap",
+        "value": 0.4532,
+        "threshold": 0.45,
+        "message": "Rep 'REP00101' resolution_gap 45.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00104",
+        "signal": "resolution_gap",
+        "value": 0.4853,
+        "threshold": 0.45,
+        "message": "Rep 'REP00104' resolution_gap 48.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00112",
+        "signal": "resolution_gap",
+        "value": 0.4657,
+        "threshold": 0.45,
+        "message": "Rep 'REP00112' resolution_gap 46.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00113",
+        "signal": "resolution_gap",
+        "value": 0.4807,
+        "threshold": 0.45,
+        "message": "Rep 'REP00113' resolution_gap 48.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00115",
+        "signal": "resolution_gap",
+        "value": 0.4748,
+        "threshold": 0.45,
+        "message": "Rep 'REP00115' resolution_gap 47.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00120",
+        "signal": "resolution_gap",
+        "value": 0.472,
+        "threshold": 0.45,
+        "message": "Rep 'REP00120' resolution_gap 47.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00121",
+        "signal": "resolution_gap",
+        "value": 0.4787,
+        "threshold": 0.45,
+        "message": "Rep 'REP00121' resolution_gap 47.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00122",
+        "signal": "resolution_gap",
+        "value": 0.4613,
+        "threshold": 0.45,
+        "message": "Rep 'REP00122' resolution_gap 46.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00125",
+        "signal": "resolution_gap",
+        "value": 0.4557,
+        "threshold": 0.45,
+        "message": "Rep 'REP00125' resolution_gap 45.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00131",
+        "signal": "resolution_gap",
+        "value": 0.4654,
+        "threshold": 0.45,
+        "message": "Rep 'REP00131' resolution_gap 46.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00132",
+        "signal": "resolution_gap",
+        "value": 0.5487,
+        "threshold": 0.45,
+        "message": "Rep 'REP00132' resolution_gap 54.9% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00133",
+        "signal": "resolution_gap",
+        "value": 0.4505,
+        "threshold": 0.45,
+        "message": "Rep 'REP00133' resolution_gap 45.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00135",
+        "signal": "resolution_gap",
+        "value": 0.456,
+        "threshold": 0.45,
+        "message": "Rep 'REP00135' resolution_gap 45.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00147",
+        "signal": "resolution_gap",
+        "value": 0.4581,
+        "threshold": 0.45,
+        "message": "Rep 'REP00147' resolution_gap 45.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00149",
+        "signal": "resolution_gap",
+        "value": 0.4926,
+        "threshold": 0.45,
+        "message": "Rep 'REP00149' resolution_gap 49.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00150",
+        "signal": "resolution_gap",
+        "value": 0.4984,
+        "threshold": 0.45,
+        "message": "Rep 'REP00150' resolution_gap 49.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00153",
+        "signal": "resolution_gap",
+        "value": 0.4646,
+        "threshold": 0.45,
+        "message": "Rep 'REP00153' resolution_gap 46.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00154",
+        "signal": "resolution_gap",
+        "value": 0.4815,
+        "threshold": 0.45,
+        "message": "Rep 'REP00154' resolution_gap 48.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00158",
+        "signal": "resolution_gap",
+        "value": 0.4531,
+        "threshold": 0.45,
+        "message": "Rep 'REP00158' resolution_gap 45.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00160",
+        "signal": "resolution_gap",
+        "value": 0.4702,
+        "threshold": 0.45,
+        "message": "Rep 'REP00160' resolution_gap 47.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00165",
+        "signal": "resolution_gap",
+        "value": 0.4898,
+        "threshold": 0.45,
+        "message": "Rep 'REP00165' resolution_gap 49.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00168",
+        "signal": "resolution_gap",
+        "value": 0.4613,
+        "threshold": 0.45,
+        "message": "Rep 'REP00168' resolution_gap 46.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00171",
+        "signal": "resolution_gap",
+        "value": 0.4762,
+        "threshold": 0.45,
+        "message": "Rep 'REP00171' resolution_gap 47.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00174",
+        "signal": "resolution_gap",
+        "value": 0.5097,
+        "threshold": 0.45,
+        "message": "Rep 'REP00174' resolution_gap 51.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00178",
+        "signal": "resolution_gap",
+        "value": 0.4526,
+        "threshold": 0.45,
+        "message": "Rep 'REP00178' resolution_gap 45.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00180",
+        "signal": "resolution_gap",
+        "value": 0.4633,
+        "threshold": 0.45,
+        "message": "Rep 'REP00180' resolution_gap 46.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00183",
+        "signal": "resolution_gap",
+        "value": 0.4828,
+        "threshold": 0.45,
+        "message": "Rep 'REP00183' resolution_gap 48.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00186",
+        "signal": "resolution_gap",
+        "value": 0.4903,
+        "threshold": 0.45,
+        "message": "Rep 'REP00186' resolution_gap 49.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00187",
+        "signal": "resolution_gap",
+        "value": 0.5278,
+        "threshold": 0.45,
+        "message": "Rep 'REP00187' resolution_gap 52.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00195",
+        "signal": "resolution_gap",
+        "value": 0.4812,
+        "threshold": 0.45,
+        "message": "Rep 'REP00195' resolution_gap 48.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00197",
+        "signal": "resolution_gap",
+        "value": 0.5153,
+        "threshold": 0.45,
+        "message": "Rep 'REP00197' resolution_gap 51.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00207",
+        "signal": "resolution_gap",
+        "value": 0.4729,
+        "threshold": 0.45,
+        "message": "Rep 'REP00207' resolution_gap 47.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00208",
+        "signal": "resolution_gap",
+        "value": 0.4636,
+        "threshold": 0.45,
+        "message": "Rep 'REP00208' resolution_gap 46.4% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00209",
+        "signal": "resolution_gap",
+        "value": 0.4651,
+        "threshold": 0.45,
+        "message": "Rep 'REP00209' resolution_gap 46.5% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00210",
+        "signal": "resolution_gap",
+        "value": 0.4805,
+        "threshold": 0.45,
+        "message": "Rep 'REP00210' resolution_gap 48.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00213",
+        "signal": "resolution_gap",
+        "value": 0.4502,
+        "threshold": 0.45,
+        "message": "Rep 'REP00213' resolution_gap 45.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00214",
+        "signal": "resolution_gap",
+        "value": 0.4633,
+        "threshold": 0.45,
+        "message": "Rep 'REP00214' resolution_gap 46.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00215",
+        "signal": "resolution_gap",
+        "value": 0.5119,
+        "threshold": 0.45,
+        "message": "Rep 'REP00215' resolution_gap 51.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00216",
+        "signal": "resolution_gap",
+        "value": 0.53,
+        "threshold": 0.45,
+        "message": "Rep 'REP00216' resolution_gap 53.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00224",
+        "signal": "resolution_gap",
+        "value": 0.4708,
+        "threshold": 0.45,
+        "message": "Rep 'REP00224' resolution_gap 47.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00230",
+        "signal": "resolution_gap",
+        "value": 0.4823,
+        "threshold": 0.45,
+        "message": "Rep 'REP00230' resolution_gap 48.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00233",
+        "signal": "resolution_gap",
+        "value": 0.4511,
+        "threshold": 0.45,
+        "message": "Rep 'REP00233' resolution_gap 45.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00234",
+        "signal": "resolution_gap",
+        "value": 0.4759,
+        "threshold": 0.45,
+        "message": "Rep 'REP00234' resolution_gap 47.6% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00235",
+        "signal": "resolution_gap",
+        "value": 0.4598,
+        "threshold": 0.45,
+        "message": "Rep 'REP00235' resolution_gap 46.0% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00236",
+        "signal": "resolution_gap",
+        "value": 0.4509,
+        "threshold": 0.45,
+        "message": "Rep 'REP00236' resolution_gap 45.1% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00238",
+        "signal": "resolution_gap",
+        "value": 0.4524,
+        "threshold": 0.45,
+        "message": "Rep 'REP00238' resolution_gap 45.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00241",
+        "signal": "resolution_gap",
+        "value": 0.5132,
+        "threshold": 0.45,
+        "message": "Rep 'REP00241' resolution_gap 51.3% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00242",
+        "signal": "resolution_gap",
+        "value": 0.5079,
+        "threshold": 0.45,
+        "message": "Rep 'REP00242' resolution_gap 50.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00243",
+        "signal": "resolution_gap",
+        "value": 0.462,
+        "threshold": 0.45,
+        "message": "Rep 'REP00243' resolution_gap 46.2% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "rep",
+        "entity": "REP00245",
+        "signal": "resolution_gap",
+        "value": 0.4684,
+        "threshold": 0.45,
+        "message": "Rep 'REP00245' resolution_gap 46.8% above WATCH threshold 45%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "scenario",
+        "entity": "fraud_care_promo",
+        "signal": "trust_score",
+        "value": 59.7683,
+        "threshold": 65.0,
+        "message": "Scenario 'fraud_care_promo' trust_score 59.8 below WATCH threshold 65.0"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "scenario",
+        "entity": "fraud_line_add",
+        "signal": "trust_score",
+        "value": 53.1726,
+        "threshold": 65.0,
+        "message": "Scenario 'fraud_line_add' trust_score 53.2 below WATCH threshold 65.0"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "scenario",
+        "entity": "fraud_store_promo",
+        "signal": "trust_score",
+        "value": 57.6997,
+        "threshold": 65.0,
+        "message": "Scenario 'fraud_store_promo' trust_score 57.7 below WATCH threshold 65.0"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "scenario",
+        "entity": "fraud_store_promo",
+        "signal": "resolution_gap",
+        "value": 0.6844,
+        "threshold": 0.5,
+        "message": "Scenario 'fraud_store_promo' resolution_gap 68.4% above WATCH threshold 50%"
+      },
+      {
+        "level": "WATCH",
+        "entity_type": "scenario",
+        "entity": "unresolvable_clean",
+        "signal": "resolution_gap",
+        "value": 0.5386,
+        "threshold": 0.5,
+        "message": "Scenario 'unresolvable_clean' resolution_gap 53.9% above WATCH threshold 50%"
+      }
+    ]
+  },
+  "churn_integration": {
+    "trust_churn_correlation": -0.3275,
+    "interpretation": "Trust score is predictive of churn (negative correlation).",
+    "deciles": [
+      {
+        "decile": 1,
+        "trust_range": "18.2-41.0",
+        "calls": 8240,
+        "churn_rate": 0.2732,
+        "resolution_gap": 1.0
+      },
+      {
+        "decile": 2,
+        "trust_range": "41.0-49.4",
+        "calls": 8233,
+        "churn_rate": 0.2695,
+        "resolution_gap": 0.9998
+      },
+      {
+        "decile": 3,
+        "trust_range": "49.4-55.1",
+        "calls": 8233,
+        "churn_rate": 0.2601,
+        "resolution_gap": 0.9985
+      },
+      {
+        "decile": 4,
+        "trust_range": "55.1-60.9",
+        "calls": 8243,
+        "churn_rate": 0.2748,
+        "resolution_gap": 0.9795
+      },
+      {
+        "decile": 5,
+        "trust_range": "60.9-76.3",
+        "calls": 8220,
+        "churn_rate": 0.2734,
+        "resolution_gap": 0.433
+      },
+      {
+        "decile": 6,
+        "trust_range": "76.3-85.9",
+        "calls": 8236,
+        "churn_rate": 0.2578,
+        "resolution_gap": -0.056
+      },
+      {
+        "decile": 7,
+        "trust_range": "85.9-90.5",
+        "calls": 8252,
+        "churn_rate": 0.2696,
+        "resolution_gap": -0.0406
+      },
+      {
+        "decile": 8,
+        "trust_range": "90.5-92.4",
+        "calls": 8234,
+        "churn_rate": 0.2669,
+        "resolution_gap": -0.0177
+      },
+      {
+        "decile": 9,
+        "trust_range": "92.4-93.9",
+        "calls": 8225,
+        "churn_rate": 0.2642,
+        "resolution_gap": -0.0156
+      },
+      {
+        "decile": 10,
+        "trust_range": "93.9-97.2",
+        "calls": 8219,
+        "churn_rate": 0.268,
+        "resolution_gap": -0.019
+      }
+    ]
+  }
+}

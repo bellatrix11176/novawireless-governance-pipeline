@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-03-03 17:35:04",
+  "rows_total": 82335,
+  "rows_clean": 82335,
+  "rows_quarantined": 0,
+  "quarantine_rate": 0.0,
+  "flag_rates": {
+    "flag_missing_required_columns": 0.0,
+    "flag_null_call_id": 0.0,
+    "flag_null_call_date": 0.0,
+    "flag_null_scenario": 0.0,
+    "flag_null_call_type": 0.0,
+    "flag_null_rep_id": 0.0,
+    "flag_null_customer_id": 0.0,
+    "flag_null_true_resolution": 0.0,
+    "flag_null_resolution_flag": 0.0,
+    "flag_null_credit_applied": 0.0,
+    "flag_null_credit_type": 0.0,
+    "flag_null_credit_authorized": 0.0,
+    "flag_unknown_scenario": 0.0,
+    "flag_invalid_credit_type": 0.0,
+    "flag_bandaid_marked_authorized": 0.0,
+    "flag_proxy_true_divergence": 0.4428736260399587,
+    "flag_detection_on_clean_scenario": 0.021230339466812412,
+    "flag_duplicate_call_id": 0.0
+  },
+  "soft_signal_rates": {
+    "proxy_true_divergence": 0.4428736260399587,
+    "detection_on_clean_scenario": 0.021230339466812412
+  },
+  "months_loaded": 12,
+  "dupe_policy": "quarantine_all",
+  "duplicate_ids_count": 0,
+  "duplicate_rows_involved": 0,
+  "duplicate_rows_quarantined": 0
+}

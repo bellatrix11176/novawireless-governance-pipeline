@@ -1,0 +1,110 @@
+GOVERNANCE THRESHOLD ALERTS
+============================================================
+Generated: 2026-03-03 17:35:17
+Total alerts: 92
+  VETO:  7
+  WATCH: 85
+
+─── VETO ALERTS (optimization halted) ───
+  [SCENARIO] Scenario 'fraud_care_promo' resolution_gap 70.8% above VETO threshold 70%
+  [SCENARIO] Scenario 'fraud_hic_exchange' trust_score 47.3 below VETO threshold 50.0
+  [SCENARIO] Scenario 'fraud_hic_exchange' resolution_gap 80.7% above VETO threshold 70%
+  [SCENARIO] Scenario 'fraud_line_add' resolution_gap 72.1% above VETO threshold 70%
+  [SCENARIO] Scenario 'gamed_metric' trust_score 46.0 below VETO threshold 50.0
+  [SCENARIO] Scenario 'gamed_metric' resolution_gap 84.3% above VETO threshold 70%
+  [SCENARIO] Scenario 'gamed_metric' bandaid_rate 70.9% above VETO threshold 50%
+
+─── WATCH ALERTS (human review required) ───
+  [REP] Rep 'REP00004' resolution_gap 46.7% above WATCH threshold 45%
+  [REP] Rep 'REP00007' resolution_gap 46.4% above WATCH threshold 45%
+  [REP] Rep 'REP00008' resolution_gap 47.2% above WATCH threshold 45%
+  [REP] Rep 'REP00019' resolution_gap 51.3% above WATCH threshold 45%
+  [REP] Rep 'REP00023' resolution_gap 45.0% above WATCH threshold 45%
+  [REP] Rep 'REP00025' resolution_gap 47.6% above WATCH threshold 45%
+  [REP] Rep 'REP00026' resolution_gap 46.3% above WATCH threshold 45%
+  [REP] Rep 'REP00027' resolution_gap 51.3% above WATCH threshold 45%
+  [REP] Rep 'REP00028' resolution_gap 45.2% above WATCH threshold 45%
+  [REP] Rep 'REP00031' resolution_gap 45.8% above WATCH threshold 45%
+  [REP] Rep 'REP00034' resolution_gap 49.2% above WATCH threshold 45%
+  [REP] Rep 'REP00035' resolution_gap 48.7% above WATCH threshold 45%
+  [REP] Rep 'REP00037' resolution_gap 47.1% above WATCH threshold 45%
+  [REP] Rep 'REP00038' resolution_gap 50.0% above WATCH threshold 45%
+  [REP] Rep 'REP00042' resolution_gap 47.3% above WATCH threshold 45%
+  [REP] Rep 'REP00046' resolution_gap 45.6% above WATCH threshold 45%
+  [REP] Rep 'REP00049' resolution_gap 48.1% above WATCH threshold 45%
+  [REP] Rep 'REP00052' resolution_gap 48.5% above WATCH threshold 45%
+  [REP] Rep 'REP00054' resolution_gap 49.7% above WATCH threshold 45%
+  [REP] Rep 'REP00056' resolution_gap 45.1% above WATCH threshold 45%
+  [REP] Rep 'REP00058' resolution_gap 50.3% above WATCH threshold 45%
+  [REP] Rep 'REP00073' resolution_gap 46.9% above WATCH threshold 45%
+  [REP] Rep 'REP00077' resolution_gap 46.2% above WATCH threshold 45%
+  [REP] Rep 'REP00086' resolution_gap 46.0% above WATCH threshold 45%
+  [REP] Rep 'REP00089' resolution_gap 45.2% above WATCH threshold 45%
+  [REP] Rep 'REP00090' trust_score 64.9 below WATCH threshold 65.0
+  [REP] Rep 'REP00090' resolution_gap 52.3% above WATCH threshold 45%
+  [REP] Rep 'REP00095' resolution_gap 47.9% above WATCH threshold 45%
+  [REP] Rep 'REP00099' resolution_gap 47.9% above WATCH threshold 45%
+  [REP] Rep 'REP00100' resolution_gap 47.9% above WATCH threshold 45%
+  [REP] Rep 'REP00101' resolution_gap 45.3% above WATCH threshold 45%
+  [REP] Rep 'REP00104' resolution_gap 48.5% above WATCH threshold 45%
+  [REP] Rep 'REP00112' resolution_gap 46.6% above WATCH threshold 45%
+  [REP] Rep 'REP00113' resolution_gap 48.1% above WATCH threshold 45%
+  [REP] Rep 'REP00115' resolution_gap 47.5% above WATCH threshold 45%
+  [REP] Rep 'REP00120' resolution_gap 47.2% above WATCH threshold 45%
+  [REP] Rep 'REP00121' resolution_gap 47.9% above WATCH threshold 45%
+  [REP] Rep 'REP00122' resolution_gap 46.1% above WATCH threshold 45%
+  [REP] Rep 'REP00125' resolution_gap 45.6% above WATCH threshold 45%
+  [REP] Rep 'REP00131' resolution_gap 46.5% above WATCH threshold 45%
+  [REP] Rep 'REP00132' resolution_gap 54.9% above WATCH threshold 45%
+  [REP] Rep 'REP00133' resolution_gap 45.1% above WATCH threshold 45%
+  [REP] Rep 'REP00135' resolution_gap 45.6% above WATCH threshold 45%
+  [REP] Rep 'REP00147' resolution_gap 45.8% above WATCH threshold 45%
+  [REP] Rep 'REP00149' resolution_gap 49.3% above WATCH threshold 45%
+  [REP] Rep 'REP00150' resolution_gap 49.8% above WATCH threshold 45%
+  [REP] Rep 'REP00153' resolution_gap 46.5% above WATCH threshold 45%
+  [REP] Rep 'REP00154' resolution_gap 48.1% above WATCH threshold 45%
+  [REP] Rep 'REP00158' resolution_gap 45.3% above WATCH threshold 45%
+  [REP] Rep 'REP00160' resolution_gap 47.0% above WATCH threshold 45%
+  [REP] Rep 'REP00165' resolution_gap 49.0% above WATCH threshold 45%
+  [REP] Rep 'REP00168' resolution_gap 46.1% above WATCH threshold 45%
+  [REP] Rep 'REP00171' resolution_gap 47.6% above WATCH threshold 45%
+  [REP] Rep 'REP00174' resolution_gap 51.0% above WATCH threshold 45%
+  [REP] Rep 'REP00178' resolution_gap 45.3% above WATCH threshold 45%
+  [REP] Rep 'REP00180' resolution_gap 46.3% above WATCH threshold 45%
+  [REP] Rep 'REP00183' resolution_gap 48.3% above WATCH threshold 45%
+  [REP] Rep 'REP00186' resolution_gap 49.0% above WATCH threshold 45%
+  [REP] Rep 'REP00187' resolution_gap 52.8% above WATCH threshold 45%
+  [REP] Rep 'REP00195' resolution_gap 48.1% above WATCH threshold 45%
+  [REP] Rep 'REP00197' resolution_gap 51.5% above WATCH threshold 45%
+  [REP] Rep 'REP00207' resolution_gap 47.3% above WATCH threshold 45%
+  [REP] Rep 'REP00208' resolution_gap 46.4% above WATCH threshold 45%
+  [REP] Rep 'REP00209' resolution_gap 46.5% above WATCH threshold 45%
+  [REP] Rep 'REP00210' resolution_gap 48.0% above WATCH threshold 45%
+  [REP] Rep 'REP00213' resolution_gap 45.0% above WATCH threshold 45%
+  [REP] Rep 'REP00214' resolution_gap 46.3% above WATCH threshold 45%
+  [REP] Rep 'REP00215' resolution_gap 51.2% above WATCH threshold 45%
+  [REP] Rep 'REP00216' resolution_gap 53.0% above WATCH threshold 45%
+  [REP] Rep 'REP00224' resolution_gap 47.1% above WATCH threshold 45%
+  [REP] Rep 'REP00230' resolution_gap 48.2% above WATCH threshold 45%
+  [REP] Rep 'REP00233' resolution_gap 45.1% above WATCH threshold 45%
+  [REP] Rep 'REP00234' resolution_gap 47.6% above WATCH threshold 45%
+  [REP] Rep 'REP00235' resolution_gap 46.0% above WATCH threshold 45%
+  [REP] Rep 'REP00236' resolution_gap 45.1% above WATCH threshold 45%
+  [REP] Rep 'REP00238' resolution_gap 45.2% above WATCH threshold 45%
+  [REP] Rep 'REP00241' resolution_gap 51.3% above WATCH threshold 45%
+  [REP] Rep 'REP00242' resolution_gap 50.8% above WATCH threshold 45%
+  [REP] Rep 'REP00243' resolution_gap 46.2% above WATCH threshold 45%
+  [REP] Rep 'REP00245' resolution_gap 46.8% above WATCH threshold 45%
+  [SCENARIO] Scenario 'fraud_care_promo' trust_score 59.8 below WATCH threshold 65.0
+  [SCENARIO] Scenario 'fraud_line_add' trust_score 53.2 below WATCH threshold 65.0
+  [SCENARIO] Scenario 'fraud_store_promo' trust_score 57.7 below WATCH threshold 65.0
+  [SCENARIO] Scenario 'fraud_store_promo' resolution_gap 68.4% above WATCH threshold 50%
+  [SCENARIO] Scenario 'unresolvable_clean' resolution_gap 53.9% above WATCH threshold 50%
+
+THRESHOLD CONFIGURATION
+  Scenario trust VETO/WATCH:  < 50.0 / < 65.0
+  Scenario gap VETO/WATCH:    > 70% / > 50%
+  Bandaid rate VETO/WATCH:    > 50% / > 20%
+  Rep trust VETO/WATCH:       < 60.0 / < 65.0
+  Rep gap VETO/WATCH:         > 55% / > 45%
+  Drift velocity WATCH:       > 2.0 pts/month
