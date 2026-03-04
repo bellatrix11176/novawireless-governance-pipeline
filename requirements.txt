@@ -1,0 +1,7 @@
+# novawireless-governance-pipeline
+# NovaFabric Validation Checklist
+
+pandas>=2.0,<4.0
+numpy>=1.24,<3.0
+matplotlib>=3.7,<4.0
+scikit-learn>=1.3,<2.0
